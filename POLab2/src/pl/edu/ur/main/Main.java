@@ -7,7 +7,7 @@ package pl.edu.ur.main;
 import java.util.Scanner;
 
 public class Main {
-        private static void zadanie3(){
+    private static void zadanie3(){
         Scanner scanner = new Scanner(System.in);
         Double[] tablica = new Double[10];
         int operacja = 1;
@@ -160,9 +160,6 @@ public class Main {
     }
     
     public static void main(String[] args) {
-        
-        // TODO zad 3, 4, 6, 7
-        
         Scanner scanner = new Scanner(System.in);
         int opcja = 1;
         
@@ -186,6 +183,5 @@ public class Main {
                 default: System.out.println("Nieprawidlowa opcja");
             }
         }
-}
-    
+    }
 }
